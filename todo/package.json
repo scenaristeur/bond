@@ -23,8 +23,9 @@
   },
   "keywords": [
     "todo",
-    "vue"
+    "vue",
+    "solid"
   ],
-  "name": "vue-todo-list-app-with-single-file-component",
-  "description": "A simple todo list application written in Vue with Single File Component (SFC) support."
+  "name": "vue-todo-list-solid",
+  "description": "A simple todo list application written in Vue with Single File Component (SFC) used on a Solid POD."
 }
