@@ -31,7 +31,8 @@ export default {
       todos: [
         createTodo("Learn Vue"),
         createTodo("Learn about single-file components"),
-        createTodo("Fall in love ❤️")
+        createTodo("Fall in love ❤️"),
+        createTodo("ADD a todo list on my POD with BOND https://github.com/scenaristeur/bond/tree/main/todo")
       ],
 
       newTodoText: ""
