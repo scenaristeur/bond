@@ -1,4 +1,7 @@
 {
+  "name": "vue-todo-list-solid",
+  "version": "0.0.1",
+  "description": "A simple todo list application written in Vue with Single File Component (SFC) used on a Solid POD.",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server",
@@ -25,7 +28,5 @@
     "todo",
     "vue",
     "solid"
-  ],
-  "name": "vue-todo-list-solid",
-  "description": "A simple todo list application written in Vue with Single File Component (SFC) used on a Solid POD."
+  ]
 }

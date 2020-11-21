@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <h1>My Todo List</h1>
+    <h1>My Todo List !</h1>
     <form @submit.prevent="addTodo">
       <input type="text" name="todo-text" v-model="newTodoText" placeholder="New todo">
     </form>

@@ -1,6 +1,6 @@
 {
   "name": "bond",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Vue.js and lot of tool for a Solid POD",
   "main": "index.js",
   "directories": {
