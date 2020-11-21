@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "todo:build": "cd todo && npm run build && cd ..",
     "git": "npm run todo:build && git add . && git commit -m",
-    "postgit": "git push && git subtree push --prefix dist origin gh-pages"
+    "postgit": "git push"
   },
   "repository": {
     "type": "git",
