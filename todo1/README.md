@@ -1,13 +1,5 @@
 https://codesandbox.io/s/vue-todo-list-app-with-single-file-component-vzkl3?file=/webpack.config.js:0-1814
 
-
-## DEV
-npm run serve
-
-## PROD
-npm run build
-
-
 ## serving js files from github using githack.com
 PROD :
 

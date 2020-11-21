@@ -7,3 +7,7 @@
 - changer la société ?
 - se changer ?
 - un peu tout ça ? dans quel ordre ?
+
+
+# ToSee
+- cercle restauratif

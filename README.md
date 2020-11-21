@@ -11,6 +11,13 @@ ps: You can do the copy with [poPock](https://scenaristeur.github.io/solid-vue-p
 
 Feel free to customize a css according to your needs
 
+### Modules
+- [ ] todos
+- [ ] needs / besoins
+- [ ] marklov pyramide & pyramide inversée (tedx)
+- [ ] gouvernance
+
+
 ### Building
 (TODO)
 - publish ``` npm run git -- "message" ```
@@ -19,3 +26,8 @@ the idea is to use ```npm run git ``` command to build & publish tools like /tod
 - or vuejs components
  https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751  
  and https://github.com/scenaristeur/ovc-jv
+
+ https://vuejsdevelopers.com/2018/05/21/vue-js-web-component/
+
+ https://stackoverflow.com/questions/53215559/how-do-i-ensure-the-vuex-store-gets-included-in-my-build
+ 
