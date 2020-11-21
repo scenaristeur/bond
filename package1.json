@@ -1,0 +1,29 @@
+{
+  "name": "bond",
+  "version": "1.0.0",
+  "description": "Vue.js and lot of tool for a Solid POD",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "git": "npm run build && git add . && git commit -m",
+    "postgit": "git push && git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scenaristeur/bond.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scenaristeur/bond/issues"
+  },
+  "homepage": "https://github.com/scenaristeur/bond#readme",
+  "dependencies": {
+    "run-git-command": "^1.2.3"
+  }
+}

@@ -29,10 +29,15 @@ export default {
   data() {
     return {
       todos: [
-        createTodo("Learn Vue B"),
+        createTodo("Learn Vue"),
         createTodo("Learn about single-file components"),
         createTodo("Fall in love ❤️"),
-        createTodo("ADD a todo list on my POD with BOND https://github.com/scenaristeur/bond/tree/main/todo")
+        createTodo("ADD a todo list on my POD with BOND https://github.com/scenaristeur/bond/tree/main/todo"),
+        createTodo("use @jeffz zipextract to install toolszip archives (https://github.com/scenaristeur/bond/tags) on a POD https://github.com/jeff-zucker/solid-file-client#createziparchivesourceurl-archiveurl-options-extractziparchivearchiveurl-targetfolderurl-options"),
+        createTodo("use a ttl file to store todos"),
+        createTodo("add status on a todo"),
+        createTodo("make tutos for basic things : create a HTML on POD, read a file on a POD, write a file on a POD, create a VUEJS app, create a simple TODO app on SOLID")
+
       ],
 
       newTodoText: ""

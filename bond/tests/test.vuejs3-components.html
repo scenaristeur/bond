@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+
+<body>
+  Vue.js 3 test
+
+  <div id="counter">
+    Counter: {{ counter }}
+  </div>
+
+  <!-- my-component.vue -->
+  <template>
+    <div>This will be pre-compiled</div>
+  </template>
+  <script src="./my-component.js"></script>
+  <style src="./my-component.css"></style>
+
+
+</body>
+<script>
+
+const Counter = {
+  data() {
+    return {
+      counter: 0
+    }
+  },
+  mounted() {
+    setInterval(() => {
+      this.counter++
+    }, 1000)
+  }
+}
+
+Vue.createApp(Counter).mount('#counter')
+
+
+</script>
+</html>
