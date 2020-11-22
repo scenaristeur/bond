@@ -16,7 +16,8 @@ export default {
     this.url = 'https://cdr.solidcommunity.net/public/vuejs/todo/' //window.location
     console.log(this.url)
     await this.readFolder()
-    this.url = window.location
+    console.log(window.location)
+    this.url = window.location.href
     console.log(this.url)
     await this.readFolder()
     console.log("CREATED TERMINE")
