@@ -1,7 +1,9 @@
 <template>
   <div class="wrapper">
     <h1>My Todo List !</h1>
-    <LoginButton />
+    LOGIN BUTTON FROM https://raw.githack.com/scenaristeur/ovc-jv/gh-pages/solid-login.js
+    <solid-login />
+    <!-- <LoginButton /> -->
     <form @submit.prevent="addTodo">
       <input type="text" name="todo-text" v-model="newTodoText" placeholder="New todo">
     </form>
@@ -17,7 +19,7 @@
 
 <script>
 import TodoItem from "./TodoItem.vue"
-import LoginButton from "./components/LoginButton.vue"
+//import LoginButton from "https://raw.githack.com/scenaristeur/ovc-jv/gh-pages/solid-login.js"
 import BondMixin from './mixins/bond/BondMixin' //'@/mixins/bond/BondMixin' ne fonctionne pas ???
 
 
@@ -31,7 +33,7 @@ const createTodo = text => ({
 export default {
   components: {
     TodoItem,
-    LoginButton //  'LoginButton': () => import('./components/LoginButton.vue'), //@ ??
+  //  LoginButton //  'LoginButton': () => import('./components/LoginButton.vue'), //@ ??
 
   },
   mixins: [BondMixin],
